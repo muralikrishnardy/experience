@@ -1,0 +1,11 @@
+<% flash.each do |name, msg| %>
+    <div class="box-body" style="position: relative;left: -13px;">
+      <div class="alert alert-success alert-dismissable">
+        <h4>
+          <i class="icon fa fa-check"></i>
+          <%= msg %>
+          <button aria-hidden="true" class="close" data-dismiss="alert" type="button"></button>
+        </h4>
+      </div>
+    </div>
+<% end %>
